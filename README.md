@@ -42,9 +42,12 @@ Word and character counts update dynamically as you type, displayed below the ed
 ### Download Button
 
 ![Image of NoteMD's Download Button](static/images/NoteMD_Download_1.png)
+
+After editing, click the **Download** button to save your Markdown content as a `.md` file.
+
 ![Image of NoteMD's Download](static/images/NoteMD_Download_2.png)
 
-After editing, click the **Download** button to save your Markdown content as a `.md` file. The filename is derived from the document's title, or it defaults to `Title.md`.
+The filename is derived from the document's title, or it defaults to `Title.md`.
 
 ## Getting Started
 
