@@ -64,7 +64,7 @@ Make sure you have the following installed:
 
 2. **Navigate into the project directory**:
     ```bash
-    cd markdown-editor
+    cd notes-md
     ```
 
 3. **Run the Go server**:
