@@ -6,7 +6,7 @@ NoteMD is a Markdown Editor with real-time character and word count, live HTML p
 
 ## Tech Stack
 
-- **Go**: Currently used to serve the app on localhost:8080, and will play a major role in the backend for future features.
+- **Go**: Currently used to serve the app on `localhost:8080`, and will play a major role in the backend for future features.
 - Vanilla **JavaScript**: Handles the frontend logic, including real-time Markdown to HTML conversion and file downloads.
 - **CSS**: For styling the editor and preview panels.
 - **HTML**: Provides the basic structure of the web application.
