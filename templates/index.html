@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note MD</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/js/script.js" defer></script>
+</head>
+
+<body>
+    <div class="main-page">
+        <div class="column editor"> <!-- Editor -->
+            <div class="margin-large">
+                <div class="title-bar">
+                    <div class="scrollable-title">
+                        <h4 id="title" class="margin-small" contenteditable="true">{{.Title}}</h4>
+                    </div>                    
+                    <h6 id="word-char-count" class="margin-small">0 Words, 0 Characters</h6>                
+                </div>
+                <hr />
+            </div> 
+        
+        <textarea id="editor-md-text" class="editor-textarea" placeholder="Start typing your markdown..."></textarea>
+        <button onclick="downloadMarkdown()">Download File</button>
+        </div>
+        <div class="column preview"> <!-- Preview -->
+            <div class="preview-scroll">
+                <div id="md-output"></div> <!-- Rendered HTML goes here -->  
+                <script src="https://cdn.jsdelivr.net/npm/markdown-it@13.0.1/dist/markdown-it.min.js"></script>
+             </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
